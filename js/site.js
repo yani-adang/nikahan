@@ -157,7 +157,7 @@ jQuery(document).ready(function($){
 	var weddingDate = new Date();
 	var weddingDate = new Date(weddingDate.getFullYear() + 1, 1 - 1, 1);
 	$(".countdown").countdown({
-		until: new Date(2021, 6, 21, 8, 0, 0),
+		until: new Date(2021, 6, 29, 8, 0, 0),
 		padZeroes: true,
 		format: 'ODHMS'
 	});
